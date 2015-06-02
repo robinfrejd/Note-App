@@ -1,0 +1,93 @@
+body
+{
+	background			: url(../img/body-bg-0.png) #222222;
+}
+
+*
+{
+	padding				: 0px;
+	margin				: 0px;
+}
+
+.sticker
+{	
+	height				: 320px;
+	width				: 300px;
+	padding				: 0px;
+	background			: url(../img/sticker.png) no-repeat 0 0;
+	position			: absolute;
+	float				: left;
+	text-align			: center;
+}
+
+.sticker textarea
+{
+	width				: 280px;
+	height				: 275px;
+	padding				: 10px;
+	border				: 0;
+	overflow			: hidden;
+	background			: transparent;
+	font				: bold 28px Helvetica, Arial, Verdana, sans-serif;
+	font				: italic 28px Georgia, Times, serif;
+	line-height			: 36px;
+	letter-spacing		: -1px;
+	text-align			: left;
+	outline-style		: none;
+    resize				: none;
+	white-space			: pre;
+	spellcheck			: false;
+}
+
+.sticker-drag
+{
+	width				: 271px;
+	height				: 25px;
+	cursor				: move;
+}
+
+.sticker-close
+{
+	width				: 25px;
+	height				: 25px;
+	cursor				: default;
+	position			: absolute;
+	right				: 0px;
+	top					: 0px;
+	background			: url(../img/remove.png) no-repeat center center;
+	opacity				: 0.25;
+}
+
+.sticker-close:hover
+{
+	opacity				: 1;
+}
+
+#page-header-wrapper
+{
+	height				: 60px;
+	width				: 100%;
+	background			: url(../img/page-header-wrapper.png) repeat-x;
+}
+
+#add-new-sticker-btn
+{
+	height				: 32px;
+	width				: 32px;
+	background			: url(../img/add.png) no-repeat center center;
+	top					: 8px;
+	position			: relative;
+	left				: 8px;
+	display				: inline-block;
+}
+
+#switch-desktop-btn
+{
+	height				: 32px;
+	width				: 32px;
+	background			: url(../img/desktop.png) no-repeat center center;
+	top					: 8px;
+	position			: relative;
+	left				: 8px;
+	display				: inline-block;
+}
